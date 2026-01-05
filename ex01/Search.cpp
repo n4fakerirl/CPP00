@@ -6,7 +6,7 @@
 /*   By: ocviller <ocviller@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/09 17:37:22 by ocviller          #+#    #+#             */
-/*   Updated: 2025/12/23 15:14:44 by ocviller         ###   ########.fr       */
+/*   Updated: 2026/01/05 09:15:24 by ocviller         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,7 @@ int printbook(PhoneBook *phone)
     if (phone->getList()[0].getFirstName().empty() || phone->getList()[0].getFirstName()[0] == '\0')
     {
         std::cout << "\nThe phonebook is currently empty. Add a contact to display the phonebook.\n\n";
-        return (1);
+        return (2);
     }
     std::cout << "\nINDEX     |FIRST NAME|LAST NAME |NICKNAME  \n\n";
     for (int i = 0; i < 8; i++)
