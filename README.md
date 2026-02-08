@@ -22,7 +22,9 @@ Il permet de découvrir la syntaxe de base du langage, les classes, les attribut
 ## 📂 Exercices
 
 ex00 : Megaphone
+
 ex01 : PhoneBook
+
 ex02 : The Job Of Your Dreams (pas dans le repo)
 
 ---
